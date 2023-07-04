@@ -1,0 +1,29 @@
+.button{
+  width: 5rem;
+  height: 2rem;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  border-radius: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.button:hover{
+  border-color: greenyellow;
+}
+
+.button-div{
+  /* height: 22rem; */
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
