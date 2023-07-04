@@ -27,3 +27,18 @@
   align-items: flex-end;
 
 }
+
+.hero{
+  background: url(./assets/uber.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.info{
+  height: 30rem;
+  width: 40rem;
+  /* background: white; */
+  margin-left: 100px;
+  /* padding-top: 100px;
+  margin-top: 100px; */
+}

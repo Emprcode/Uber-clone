@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { BiGridSmall } from "react-icons/bi";
 
 export const Header = () => {
   return (
@@ -47,8 +48,10 @@ export const Header = () => {
             </Nav.Link>
           </Nav>
           <Nav className="">
-            <Nav.Link className="text-light fw-bold" href="#action1">
-              <i class="fa-thin fa-grid"></i> Products
+            <Nav.Link
+              className="text-light fw-bold d-flex justify-content-center"
+              href="#action1">
+              Products
             </Nav.Link>
             <Nav.Link className="text-light fw-bold" href="#action1">
               <i className="fa-solid fa-globe"></i> EN
