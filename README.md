@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Uber
+
+# This is a Uber clone build for my project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
