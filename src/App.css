@@ -31,14 +31,51 @@
 .hero{
   background: url(./assets/uber.jpg);
   background-size: cover;
-  min-height: 100vh;
+  min-height: 140vh;
 }
 
 .info{
-  height: 30rem;
-  width: 40rem;
+  height: 35rem;
+  width: 37rem;
   /* background: white; */
   margin-left: 100px;
-  /* padding-top: 100px;
-  margin-top: 100px; */
+
+}
+
+.abc{
+  margin-top: 100px;
+}
+.uber{
+  height: 120vh;
+  width: 100%;
+  z-index: -10;
+}
+
+.curser{
+  cursor: pointer;
+}
+
+.title{
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52px;
+    
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: currentColor;
+    letter-spacing: 0;
+    margin: 1;
+    width: 100%;
+    margin-left: 4rem
+}
+
+.bottom-info{
+
+  margin-top: 2rem;
+  margin-left: 4rem;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-color: rgb(54, 53, 54);
+  text-underline-offset: 8px;
+
 }
