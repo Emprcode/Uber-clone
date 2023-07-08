@@ -137,3 +137,14 @@ cursor: pointer;
 .footerbg{
 background: black;
 }
+
+.about-icon{
+  background: #f7f9f9ca;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

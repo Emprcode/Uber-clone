@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { ScrollUpButton } from "../components/scrollUpButton";
 
 export const Footer = () => {
   return (
@@ -54,6 +55,9 @@ export const Footer = () => {
             </div>
           </Col>
         </Row>
+        <div className="d-flex justify-content-end">
+          <ScrollUpButton />
+        </div>
       </Container>
     </div>
   );
