@@ -8,8 +8,10 @@ import { BiGridSmall } from "react-icons/bi";
 
 export const Header = () => {
   return (
-    <Navbar expand="md" className="bg-dark header ">
-      <Container fluid>
+
+    <>
+    {/* <Navbar expand="md" className="bg-dark ">
+      < Container>
         <Navbar.Brand href="#" className="text-light">
           <h3 className="mx-3">Uber</h3>
         </Navbar.Brand>
@@ -19,54 +21,49 @@ export const Header = () => {
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: "100px" }}
             navbarScroll>
-            {/* <NavDropdown
-              className="text-light"
-              title="Link"
-              id="navbarScrollingDropdown">
-              <NavDropdown.Item className="text-light" href="#action3">
-                Action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown> */}
-            {/* <Nav.Link className="text-light" href="#" disabled>
-              Link
-            </Nav.Link> */}
+           
             <Nav.Link className="text-light fw-bold" href="#action1">
               Company
             </Nav.Link>
-            <Nav.Link className="text-light fw-bold" href="#action1">
+            <Nav.Link  className="text-light fw-bold" href="#action1">
               Safety
             </Nav.Link>
-            <Nav.Link className="text-light fw-bold" href="#action2">
+            <Nav.Link  className="text-light fw-bold" href="#action2">
               Help
             </Nav.Link>
           </Nav>
-          <Nav className="">
-            <Nav.Link
-              className="text-light fw-bold d-flex justify-content-center"
-              href="#action1">
-              Products
-            </Nav.Link>
-            <Nav.Link className="text-light fw-bold" href="#action1">
-              <i className="fa-solid fa-globe"></i> EN
-            </Nav.Link>
-            <Nav.Link className="text-light fw-bold" href="#action2">
-              Log in
-            </Nav.Link>
-            <Nav.Link className="text-light fw-bold" href="#action2">
-              <div className="button-div">
-                <div className="button text-light">Sign up</div>
-              </div>
-            </Nav.Link>
+         
+        </Navbar.Collapse>
+      </Container>
+    </Navbar> */}
+
+
+    <Navbar bg="dark" expand="md">
+      <Container className='mt-3'>
+        <Navbar.Brand href="#home" className="text-light" >
+        <h3 className="mx-3">Uber</h3>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto fw-bold gap-3">
+            <Nav.Link className="text-light" href="#skills">Company</Nav.Link>
+            <Nav.Link className="text-light" href="#project"> Safety</Nav.Link>
+            <Nav.Link className="text-light" href="#project">  Help</Nav.Link>
+        
+          </Nav>
+          <Nav className="ms-auto text-light fw-bold gap-3">
+            <Nav.Link className="text-light" href="#skills">Products</Nav.Link>
+            <Nav.Link className="text-light" href="#project"><i className="fa-solid fa-globe"></i> EN</Nav.Link>
+            <Nav.Link className="text-light" href="#project">   Log in</Nav.Link>
+         <div variant='none' href="#contact-address" className='button fw-bold'> Sign up</div>
+         {/* <div
+     
+     className='button mt-5'>DEMO DRIVE</div>
+     </div> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </>
   );
 };
