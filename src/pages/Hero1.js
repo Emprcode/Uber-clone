@@ -1,9 +1,11 @@
 import React from "react";
 import { Row, Col, Button, Container } from "react-bootstrap";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 export const Hero1 = () => {
   return (
-    <div className="city">
+    <div className="city" data-aos="fade-up" data-aos-duration="1000">
       <Container>
         <div className="p-5">
           <div>

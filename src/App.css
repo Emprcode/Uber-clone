@@ -118,3 +118,20 @@
    
 }
   
+
+.bg-color{
+  height: 80vh;
+background: rgba(226, 220, 220, 0.539);
+}
+
+.uber-app{
+  background: white;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+cursor: pointer;
+}
+
+:hover
+

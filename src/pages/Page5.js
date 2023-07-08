@@ -1,13 +1,13 @@
 import React from "react";
-import car1 from "../assets/car1.png";
-import car2 from "../assets/car2.png";
 import { Col, Container, Row } from "react-bootstrap";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 export const Page5 = () => {
   return (
     <div>
       <Container className="">
-        <Row className="mt-5">
+        <Row className="mt-5" data-aos="fade-up" data-aos-duration="1000">
           <Col className="p-5 ">
             <div className="h4">
               <i class="fa-solid fa-users"></i>

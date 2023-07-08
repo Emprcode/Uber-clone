@@ -1,12 +1,17 @@
 import React from "react";
 import car from "../assets/car.png";
 import { Col, Container, Row } from "react-bootstrap";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 export const Page3 = () => {
   return (
     <div>
       <Container>
-        <div className="mt-5 mb-5 d-flex justify-content-center align-items-center flex-wrap">
+        <div
+          className="mt-5 mb-5 d-flex justify-content-center align-items-center flex-wrap"
+          data-aos="fade-up"
+          data-aos-duration="1000">
           <div className="p-5 col-md-6">
             <div className="title mt-5">Rent a car</div>
 
