@@ -6,8 +6,8 @@ export const Page3 = () => {
   return (
     <div>
       <Container>
-        <Row className="mt-5">
-          <Col className="p-5">
+        <div className="mt-5 d-flex justify-content-center align-items-center flex-wrap">
+          <div className="p-5 col-md-6">
             <div className="title mt-5">Rent a car</div>
 
             <p className="mt-5">
@@ -17,11 +17,11 @@ export const Page3 = () => {
             </p>
 
             <div className="bottom-info curser">Learn more</div>
-          </Col>
-          <Col>
+          </div>
+          <div>
             <img src={car} alt="car" width="100%" />
-          </Col>
-        </Row>
+          </div>
+        </div>
       </Container>
     </div>
   );

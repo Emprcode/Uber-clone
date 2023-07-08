@@ -3,6 +3,7 @@ import { Header } from './pages/Header';
 import { Hero } from './pages/Hero';
 import { Hero1 } from './pages/Hero1';
 import { Page3 } from './pages/Page3';
+import { Page4 } from './pages/Page4';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
    <Hero/>
    <Hero1/>
    <Page3/>
+   <Page4/>
     </div>
   );
 }
