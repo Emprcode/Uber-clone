@@ -13,7 +13,7 @@ export const Page6 = () => {
           </h1>
         </Row>
         <Row className="gap-4">
-          <Col className=" p-4 uber-app">
+          <Col className=" p-4 uber-app ">
             <img className="rounded" src={driver} alt="driver" width="30%" />
             <h4 className="">Download the Driver app</h4>
 
