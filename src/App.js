@@ -2,6 +2,7 @@ import './App.css';
 import { Header } from './pages/Header';
 import { Hero } from './pages/Hero';
 import { Hero1 } from './pages/Hero1';
+import { Page3 } from './pages/Page3';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
    <Header/> 
    <Hero/>
    <Hero1/>
+   <Page3/>
     </div>
   );
 }

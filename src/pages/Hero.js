@@ -29,10 +29,10 @@ export const Hero = () => {
               </Col>
               <hr />
             </Row>
-            <div>
+            <div className="mx-5">
               <div className="title">Get in the driver's</div>
               <div className="title">seat and get paid</div>
-              <p className="mt-5 mx-5">
+              <p className="mt-5">
                 Drive on the platform with the largest network of active riders.
               </p>
             </div>
@@ -40,7 +40,7 @@ export const Hero = () => {
               Sign up to drive
             </Button>
 
-            <div className="bottom-info curser">
+            <div className="bottom-info mx-5 curser">
               Learn more about driving and delivering
             </div>
           </div>
