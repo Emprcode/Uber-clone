@@ -65,14 +65,17 @@
 .info{
   height: 35rem;
   width: 37rem;
-  /* background: white; */
+  background: white;
   margin-left: 100px;
- 
-
-
 
 }
 
+@media screen and (max-width: 548px) {
+  .info {
+    height: 45rem;
+    margin-left: 10px;
+  }
+}
 .curser{
   cursor: pointer;
 }

@@ -6,7 +6,7 @@ export const Page3 = () => {
   return (
     <div>
       <Container>
-        <div className="mt-5 d-flex justify-content-center align-items-center flex-wrap">
+        <div className="mt-5 mb-5 d-flex justify-content-center align-items-center flex-wrap">
           <div className="p-5 col-md-6">
             <div className="title mt-5">Rent a car</div>
 

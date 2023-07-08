@@ -39,23 +39,23 @@ export const Header = () => {
 
 
     <Navbar bg="dark" expand="md">
-      <Container className='mt-3'>
+      <Container className=''>
         <Navbar.Brand href="#home" className="text-light" >
         <h3 className="mx-3">Uber</h3>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto fw-bold gap-3">
-            <Nav.Link className="text-light" href="#skills">Company</Nav.Link>
-            <Nav.Link className="text-light" href="#project"> Safety</Nav.Link>
-            <Nav.Link className="text-light" href="#project">  Help</Nav.Link>
+            <Nav.Link className="text-light" href="#company">Company</Nav.Link>
+            <Nav.Link className="text-light" href="#safety"> Safety</Nav.Link>
+            <Nav.Link className="text-light" href="#help">  Help</Nav.Link>
         
           </Nav>
           <Nav className="ms-auto text-light fw-bold gap-3">
-            <Nav.Link className="text-light" href="#skills">Products</Nav.Link>
-            <Nav.Link className="text-light" href="#project"><i className="fa-solid fa-globe"></i> EN</Nav.Link>
-            <Nav.Link className="text-light" href="#project">   Log in</Nav.Link>
-         <div variant='none' href="#contact-address" className='button fw-bold'> Sign up</div>
+            <Nav.Link className="text-light" href="#products">Products</Nav.Link>
+            <Nav.Link className="text-light" href="#en"><i className="fa-solid fa-globe"></i> EN</Nav.Link>
+            <Nav.Link className="text-light" href="#login">   Log in</Nav.Link>
+         <div variant='none' href="#sign-up" className='button fw-bold'> Sign up</div>
          {/* <div
      
      className='button mt-5'>DEMO DRIVE</div>

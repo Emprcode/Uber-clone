@@ -7,23 +7,23 @@ export const Hero = () => {
     <div className="hero">
       <Container>
         <div className="box">
-          <div className="info bg-light">
+          <div className="info">
             <Row className="p-5 ">
-              <Col className="flex-col text-center h5 curser">
+              <Col className="text-center h5 curser">
                 <p>
-                  <i class="fa-solid fa-chart-simple"></i>
+                  <i className="fa-solid fa-chart-simple"></i>
                 </p>
                 <p>Drive or Deliver</p>
               </Col>
-              <Col className="flex-col text-center h5 curser">
+              <Col className=" text-center h5 curser">
                 <p>
-                  <i class="fa-solid fa-utensils"></i>
+                  <i className="fa-solid fa-utensils"></i>
                 </p>
                 <p>Eat</p>
               </Col>
-              <Col className="flex-col text-center h5 curser">
+              <Col className="text-center h5 curser">
                 <p>
-                  <i class="fa-solid fa-car"></i>
+                  <i className="fa-solid fa-car"></i>
                 </p>
                 <p>Ride</p>
               </Col>
