@@ -1,10 +1,13 @@
 import React from "react";
 import { Row, Col, Button, Container } from "react-bootstrap";
 import uber from "../assets/uber.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 export const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" data-aos="fade-up" data-aos-duration="1000">
       <Container>
         <div className="box">
           <div className="info">
