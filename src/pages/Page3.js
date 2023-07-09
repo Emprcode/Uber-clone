@@ -12,8 +12,8 @@ export const Page3 = () => {
           className="mt-5 mb-5 d-flex justify-content-center align-items-center flex-wrap"
           data-aos="fade-up"
           data-aos-duration="1000">
-          <div className="p-5 col-md-6">
-            <div className="title mt-5">Rent a car</div>
+          <div className="col-md-6">
+            <div className="title mt-4">Rent a car</div>
 
             <p className="mt-5">
               Whether it's a holiday getaway, a day around town or a van to move

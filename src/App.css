@@ -120,8 +120,9 @@
   
 
 .bg-color{
-  height: 80vh;
+  /* height: 80vh; */
 background: rgba(226, 220, 220, 0.539);
+
 }
 
 .uber-app{
