@@ -7,8 +7,8 @@ export const Page4 = () => {
   return (
     <div>
       <Container className="">
-        <Row className="mt-5">
-          <h1 className="fw-bold mx-5 mt-4">
+        <Row className="mt-5 mx-4">
+          <h1 className="fw-bold mt-4">
             Focused on safety, wherever you go
           </h1>
         </Row>
