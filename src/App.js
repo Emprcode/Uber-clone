@@ -11,7 +11,7 @@ import { Page6 } from './pages/Page6';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
    <Header/> 
    <Hero/>
    <Hero1/>

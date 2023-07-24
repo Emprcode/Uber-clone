@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Button, Container } from "react-bootstrap";
-import uber from "../assets/uber.jpg";
+// import uber from "../assets/uber.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -11,7 +11,7 @@ export const Hero = () => {
       <Container>
         <div className="box">
           <div className="info">
-            <Row className="p-5 ">
+            <Row className="p-5">
               <Col className="text-center h5 curser">
                 <p>
                   <i className="fa-solid fa-chart-simple"></i>

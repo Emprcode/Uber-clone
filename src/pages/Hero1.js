@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Button, Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();

@@ -1,6 +1,6 @@
 import React from "react";
 import car from "../assets/car.png";
-import { Col, Container, Row } from "react-bootstrap";
+import {Container} from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
